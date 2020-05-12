@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Layout from '../templates/Layout';
-import { getImage } from '../utils';
+import { getAsset } from '../utils';
 
 function ArticleItem({ workPeriod, name, jobDesc }) {
   return (
@@ -77,7 +77,7 @@ function Home() {
     <div>
       <Head>
         <title>Ways To Geek</title>
-        <link rel="icon" href={getImage('favicon.ico')} />
+        <link rel="icon" href={getAsset('favicon.ico')} />
       </Head>
       <Layout>
         <div className="container">
@@ -94,7 +94,7 @@ function Home() {
                 }}
               >
                 <div className="header-logo" style={{ flexDirection: 'row' }}>
-                  <img src={getImage('logo.png')} alt="" />
+                  <img src={getAsset('logo.png')} alt="" />
                 </div>
                 <div className="title">
                   <span>Ways to Geek</span>
