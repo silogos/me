@@ -4,6 +4,10 @@ import { getAsset } from '../utils';
 
 const FontFaces = () => (
   <style jsx global>{`
+    .flex, .flex > * {
+      display: flex;
+    }
+
     @font-face {
       font-family: 'Jost';
       src: local('Jost* Book'),

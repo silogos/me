@@ -13,26 +13,30 @@ export default function Layout({ children }) {
         }
 
         body {
-          background: linear-gradient(
-            145.87deg,
-            rgb(28, 42, 52) 10.36%,
-            rgb(17, 26, 32) 49.58%,
-            rgb(17, 26, 32) 49.58%
-          );
+          background: linear-gradient(145.87deg, rgb(28, 42, 52) 10.36%, rgb(17, 26, 32) 100%);
         }
 
         * {
           box-sizing: border-box;
         }
 
+        // .wrapper {
+        //   display: flex;
+        //   position: relative;
+        //   margin: auto;
+        //   width: 100%;
+        //   max-width: 856px;
+        //   box-sizing: border-box;
+        //   padding: 0px 50px;
+        // }
+
         .wrapper {
           display: flex;
-          position: relative;
-          margin: auto;
-          width: 100%;
+          align-items: center;
+          width: calc(100% - 50px);
           max-width: 856px;
-          box-sizing: border-box;
-          padding: 0px 50px;
+          margin: 0 auto;
+          flex-direction: column;
         }
 
         h1,
