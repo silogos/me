@@ -102,6 +102,79 @@ module.exports = _createClass;
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _classCallCheck; });
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/createClass.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/createClass.js ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _createClass; });
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+    Object.defineProperty(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  return Constructor;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/defineProperty.js ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/esm/extends.js":
 /*!************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/extends.js ***!
@@ -4358,10 +4431,10 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 var FontFaces = function FontFaces() {
   return __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    id: "938262061",
+    id: "2099343672",
     dynamic: [Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-400-Book.woff2'), Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-400-Book.woff'), Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-400-Book.ttf'), Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-500-Medium.woff2'), Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-500-Medium.woff'), Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-500-Medium.ttf'), Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-700-Bold.woff2'), Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-700-Bold.woff'), Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-700-Bold.ttf')],
     __self: _this
-  }, "@font-face{font-family:'Jost';src:local('Jost*:Book'), local('Jost-Book'), url('".concat(Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-400-Book.woff2'), "') format('woff2'), url('").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-400-Book.woff'), "') format('woff'), url('").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-400-Book.ttf'), "') format('truetype');font-weight:normal;font-style:normal;}@font-face{font-family:'Jost';src:local('Jost*:Medium'), local('Jost-Medium'), url('").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-500-Medium.woff2'), "') format('woff2'), url('").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-500-Medium.woff'), "') format('woff'), url('").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-500-Medium.ttf'), "') format('truetype');font-weight:500;font-style:normal;}@font-face{font-family:'Jost';src:local('Jost*:Bold'), local('Jost-Bold'), url('").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-700-Bold.woff2'), "') format('woff2'), url('").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-700-Bold.woff'), "') format('woff'), url('").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-700-Bold.ttf'), "') format('truetype');font-weight:700;font-style:bold;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9pdC9Eb2N1bWVudHMvQW1pbi9naC1wYWdlcy1hcHAvc3JjL3BhZ2VzL19hcHAuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBS3FCLEFBRzBCLEFBV0EsQUFXQSxtQkFqQnFDLEFBV0EsQUFXQSw2TUFyQnJDLEFBc0JILElBWEEsWUFZQSxHQXRCRSxDQVdBLFlBWXBCLEtBdEJBLENBV0EiLCJmaWxlIjoiL1VzZXJzL2l0L0RvY3VtZW50cy9BbWluL2doLXBhZ2VzLWFwcC9zcmMvcGFnZXMvX2FwcC5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIGVzbGludC1kaXNhYmxlIHByZXR0aWVyL3ByZXR0aWVyICovXG5pbXBvcnQgJy4uL3N0eWxlcy9ub3JtYWxpemUuY3NzJztcbmltcG9ydCB7IGdldEFzc2V0IH0gZnJvbSAnLi4vdXRpbHMnO1xuXG5jb25zdCBGb250RmFjZXMgPSAoKSA9PiAoXG4gIDxzdHlsZSBqc3ggZ2xvYmFsPntgXG4gICAgQGZvbnQtZmFjZSB7XG4gICAgICBmb250LWZhbWlseTogJ0pvc3QnO1xuICAgICAgc3JjOiBsb2NhbCgnSm9zdCogQm9vaycpLFxuICAgICAgICBsb2NhbCgnSm9zdC1Cb29rJyksXG4gICAgICAgIHVybCgnJHtnZXRBc3NldCgnZm9udHMvSm9zdC00MDAtQm9vay53b2ZmMicpfScpIGZvcm1hdCgnd29mZjInKSxcbiAgICAgICAgdXJsKCcke2dldEFzc2V0KCdmb250cy9Kb3N0LTQwMC1Cb29rLndvZmYnKX0nKSBmb3JtYXQoJ3dvZmYnKSxcbiAgICAgICAgdXJsKCcke2dldEFzc2V0KCdmb250cy9Kb3N0LTQwMC1Cb29rLnR0ZicpfScpIGZvcm1hdCgndHJ1ZXR5cGUnKTtcbiAgICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XG4gICAgICBmb250LXN0eWxlOiBub3JtYWw7XG4gICAgfVxuXG4gICAgQGZvbnQtZmFjZSB7XG4gICAgICBmb250LWZhbWlseTogJ0pvc3QnO1xuICAgICAgc3JjOiBsb2NhbCgnSm9zdCogTWVkaXVtJyksXG4gICAgICAgIGxvY2FsKCdKb3N0LU1lZGl1bScpLFxuICAgICAgICB1cmwoJyR7Z2V0QXNzZXQoJ2ZvbnRzL0pvc3QtNTAwLU1lZGl1bS53b2ZmMicpfScpIGZvcm1hdCgnd29mZjInKSxcbiAgICAgICAgdXJsKCcke2dldEFzc2V0KCdmb250cy9Kb3N0LTUwMC1NZWRpdW0ud29mZicpfScpIGZvcm1hdCgnd29mZicpLFxuICAgICAgICB1cmwoJyR7Z2V0QXNzZXQoJ2ZvbnRzL0pvc3QtNTAwLU1lZGl1bS50dGYnKX0nKSBmb3JtYXQoJ3RydWV0eXBlJyk7XG4gICAgICBmb250LXdlaWdodDogNTAwO1xuICAgICAgZm9udC1zdHlsZTogbm9ybWFsO1xuICAgIH1cblxuICAgIEBmb250LWZhY2Uge1xuICAgICAgZm9udC1mYW1pbHk6ICdKb3N0JztcbiAgICAgIHNyYzogbG9jYWwoJ0pvc3QqIEJvbGQnKSxcbiAgICAgICAgbG9jYWwoJ0pvc3QtQm9sZCcpLFxuICAgICAgICB1cmwoJyR7Z2V0QXNzZXQoJ2ZvbnRzL0pvc3QtNzAwLUJvbGQud29mZjInKX0nKSBmb3JtYXQoJ3dvZmYyJyksXG4gICAgICAgIHVybCgnJHtnZXRBc3NldCgnZm9udHMvSm9zdC03MDAtQm9sZC53b2ZmJyl9JykgZm9ybWF0KCd3b2ZmJyksXG4gICAgICAgIHVybCgnJHtnZXRBc3NldCgnZm9udHMvSm9zdC03MDAtQm9sZC50dGYnKX0nKSBmb3JtYXQoJ3RydWV0eXBlJyk7XG4gICAgICBmb250LXdlaWdodDogNzAwO1xuICAgICAgZm9udC1zdHlsZTogYm9sZDtcbiAgICB9XG4gIGB9PC9zdHlsZT5cbilcblxuLy8gVGhpcyBkZWZhdWx0IGV4cG9ydCBpcyByZXF1aXJlZCBpbiBhIG5ldyBgcGFnZXMvX2FwcC5qc2AgZmlsZS5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIE15QXBwKHsgQ29tcG9uZW50LCBwYWdlUHJvcHMgfSkge1xuICByZXR1cm4gKFxuICAgIDw+XG4gICAgICA8Rm9udEZhY2VzLz5cbiAgICAgIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz5cbiAgICA8Lz5cbiAgKVxufVxuIl19 */\n/*@ sourceURL=/Users/it/Documents/Amin/gh-pages-app/src/pages/_app.js */"));
+  }, "@font-face{font-family:'Jost';src:local('Jost*:Book'), local('Jost-Book'), url('".concat(Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-400-Book.woff2'), "') format('woff2'), url('").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-400-Book.woff'), "') format('woff'), url('").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-400-Book.ttf'), "') format('truetype');font-weight:normal;font-style:normal;}@font-face{font-family:'Jost';src:local('Jost*:Medium'), local('Jost-Medium'), url('").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-500-Medium.woff2'), "') format('woff2'), url('").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-500-Medium.woff'), "') format('woff'), url('").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-500-Medium.ttf'), "') format('truetype');font-weight:500;font-style:normal;}@font-face{font-family:'Jost';src:local('Jost*:Bold'), local('Jost-Bold'), url('").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-700-Bold.woff2'), "') format('woff2'), url('").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-700-Bold.woff'), "') format('woff'), url('").concat(Object(_utils__WEBPACK_IMPORTED_MODULE_4__["getAsset"])('fonts/Jost-700-Bold.ttf'), "') format('truetype');font-weight:700;font-style:bold;}.flex,.flex>*{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9pdC9Eb2N1bWVudHMvQW1pbi9naC1wYWdlcy1hcHAvc3JjL3BhZ2VzL19hcHAuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBS3FCLEFBR29CLEFBSU0sQUFXQSxBQVdBLG1CQWpCcUMsQUFXQSxBQVdBLHVEQTlCMUQsc0pBU3FCLEFBc0JILElBWEEsWUFZQSxHQXRCRSxDQVdBLFlBWXBCLEtBdEJBLENBV0EiLCJmaWxlIjoiL1VzZXJzL2l0L0RvY3VtZW50cy9BbWluL2doLXBhZ2VzLWFwcC9zcmMvcGFnZXMvX2FwcC5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIGVzbGludC1kaXNhYmxlIHByZXR0aWVyL3ByZXR0aWVyICovXG5pbXBvcnQgJy4uL3N0eWxlcy9ub3JtYWxpemUuY3NzJztcbmltcG9ydCB7IGdldEFzc2V0IH0gZnJvbSAnLi4vdXRpbHMnO1xuXG5jb25zdCBGb250RmFjZXMgPSAoKSA9PiAoXG4gIDxzdHlsZSBqc3ggZ2xvYmFsPntgXG4gICAgLmZsZXgsIC5mbGV4ID4gKiB7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgIH1cblxuICAgIEBmb250LWZhY2Uge1xuICAgICAgZm9udC1mYW1pbHk6ICdKb3N0JztcbiAgICAgIHNyYzogbG9jYWwoJ0pvc3QqIEJvb2snKSxcbiAgICAgICAgbG9jYWwoJ0pvc3QtQm9vaycpLFxuICAgICAgICB1cmwoJyR7Z2V0QXNzZXQoJ2ZvbnRzL0pvc3QtNDAwLUJvb2sud29mZjInKX0nKSBmb3JtYXQoJ3dvZmYyJyksXG4gICAgICAgIHVybCgnJHtnZXRBc3NldCgnZm9udHMvSm9zdC00MDAtQm9vay53b2ZmJyl9JykgZm9ybWF0KCd3b2ZmJyksXG4gICAgICAgIHVybCgnJHtnZXRBc3NldCgnZm9udHMvSm9zdC00MDAtQm9vay50dGYnKX0nKSBmb3JtYXQoJ3RydWV0eXBlJyk7XG4gICAgICBmb250LXdlaWdodDogbm9ybWFsO1xuICAgICAgZm9udC1zdHlsZTogbm9ybWFsO1xuICAgIH1cblxuICAgIEBmb250LWZhY2Uge1xuICAgICAgZm9udC1mYW1pbHk6ICdKb3N0JztcbiAgICAgIHNyYzogbG9jYWwoJ0pvc3QqIE1lZGl1bScpLFxuICAgICAgICBsb2NhbCgnSm9zdC1NZWRpdW0nKSxcbiAgICAgICAgdXJsKCcke2dldEFzc2V0KCdmb250cy9Kb3N0LTUwMC1NZWRpdW0ud29mZjInKX0nKSBmb3JtYXQoJ3dvZmYyJyksXG4gICAgICAgIHVybCgnJHtnZXRBc3NldCgnZm9udHMvSm9zdC01MDAtTWVkaXVtLndvZmYnKX0nKSBmb3JtYXQoJ3dvZmYnKSxcbiAgICAgICAgdXJsKCcke2dldEFzc2V0KCdmb250cy9Kb3N0LTUwMC1NZWRpdW0udHRmJyl9JykgZm9ybWF0KCd0cnVldHlwZScpO1xuICAgICAgZm9udC13ZWlnaHQ6IDUwMDtcbiAgICAgIGZvbnQtc3R5bGU6IG5vcm1hbDtcbiAgICB9XG5cbiAgICBAZm9udC1mYWNlIHtcbiAgICAgIGZvbnQtZmFtaWx5OiAnSm9zdCc7XG4gICAgICBzcmM6IGxvY2FsKCdKb3N0KiBCb2xkJyksXG4gICAgICAgIGxvY2FsKCdKb3N0LUJvbGQnKSxcbiAgICAgICAgdXJsKCcke2dldEFzc2V0KCdmb250cy9Kb3N0LTcwMC1Cb2xkLndvZmYyJyl9JykgZm9ybWF0KCd3b2ZmMicpLFxuICAgICAgICB1cmwoJyR7Z2V0QXNzZXQoJ2ZvbnRzL0pvc3QtNzAwLUJvbGQud29mZicpfScpIGZvcm1hdCgnd29mZicpLFxuICAgICAgICB1cmwoJyR7Z2V0QXNzZXQoJ2ZvbnRzL0pvc3QtNzAwLUJvbGQudHRmJyl9JykgZm9ybWF0KCd0cnVldHlwZScpO1xuICAgICAgZm9udC13ZWlnaHQ6IDcwMDtcbiAgICAgIGZvbnQtc3R5bGU6IGJvbGQ7XG4gICAgfVxuICBgfTwvc3R5bGU+XG4pXG5cbi8vIFRoaXMgZGVmYXVsdCBleHBvcnQgaXMgcmVxdWlyZWQgaW4gYSBuZXcgYHBhZ2VzL19hcHAuanNgIGZpbGUuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBNeUFwcCh7IENvbXBvbmVudCwgcGFnZVByb3BzIH0pIHtcbiAgcmV0dXJuIChcbiAgICA8PlxuICAgICAgPEZvbnRGYWNlcy8+XG4gICAgICA8Q29tcG9uZW50IHsuLi5wYWdlUHJvcHN9IC8+XG4gICAgPC8+XG4gIClcbn1cbiJdfQ== */\n/*@ sourceURL=/Users/it/Documents/Amin/gh-pages-app/src/pages/_app.js */"));
 }; // This default export is required in a new `pages/_app.js` file.
 
 
@@ -4372,14 +4445,14 @@ function MyApp(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 50,
       columnNumber: 7
     }
   }), __jsx(Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 51,
       columnNumber: 7
     }
   })));
@@ -4502,15 +4575,111 @@ __webpack_require__.r(__webpack_exports__);
 /*!****************************!*\
   !*** ./src/utils/index.js ***!
   \****************************/
-/*! exports provided: getAsset */
+/*! exports provided: getAsset, useResponsive, flattenStyle */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _getAsset__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getAsset */ "./src/utils/getAsset.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "getAsset", function() { return _getAsset__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "flattenStyle", function() { return flattenStyle; });
+/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _getAsset__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getAsset */ "./src/utils/getAsset.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "getAsset", function() { return _getAsset__WEBPACK_IMPORTED_MODULE_1__["default"]; });
+
+/* harmony import */ var _useResponsive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./useResponsive */ "./src/utils/useResponsive.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "useResponsive", function() { return _useResponsive__WEBPACK_IMPORTED_MODULE_2__["default"]; });
 
 
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+
+
+var flattenStyle = function flattenStyle(arr) {
+  return arr.reduce(function (g, i) {
+    return _objectSpread({}, g, {}, i);
+  }, {});
+};
+
+/***/ }),
+
+/***/ "./src/utils/useResponsive.js":
+/*!************************************!*\
+  !*** ./src/utils/useResponsive.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+
+var Responsive = /*#__PURE__*/function () {
+  function Responsive(width, sizes) {
+    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Responsive);
+
+    this.width = width;
+    this.sizes = sizes;
+  }
+
+  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Responsive, [{
+    key: "getSize",
+    value: function getSize() {
+      var _this = this;
+
+      var res = null;
+      Object.keys(this.sizes).every(function (key) {
+        res = key;
+
+        if (_this.width >= _this.sizes[key].min && _this.width <= _this.sizes[key].max) {
+          return false;
+        }
+
+        return true;
+      });
+      return res;
+    }
+  }, {
+    key: "select",
+    value: function select() {
+      var data = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {
+        other: undefined
+      };
+      var size = this.getSize();
+      return data[size] || data.other;
+    }
+  }]);
+
+  return Responsive;
+}();
+
+function useResponsive(sizes) {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(0),
+      width = _useState[0],
+      setWidth = _useState[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_2__["useLayoutEffect"])(function () {
+    function updateWidth() {
+      setWidth(window.innerWidth);
+    }
+
+    updateWidth();
+    window.addEventListener('resize', updateWidth);
+    return function () {
+      return window.removeEventListener('resize', updateWidth);
+    };
+  });
+  return new Responsive(width, sizes);
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (useResponsive);
 
 /***/ }),
 
